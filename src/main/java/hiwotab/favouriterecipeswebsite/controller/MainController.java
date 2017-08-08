@@ -9,15 +9,15 @@ public class MainController {
     public String showHomePage() {
         return "home";
     }
-    @GetMapping("/")
+    @GetMapping("/crabcakePage")
     public String showCrabcake() {
         return "crabcakes";
     }
-    @GetMapping("/")
+    @GetMapping("/gingeralePage")
     public String showGingeral() {
         return "gingerale";
     }
-    @GetMapping("/")
+    @GetMapping("/cornbreadPage")
     public String showCornbread() {
         return "cornbread";
     }
